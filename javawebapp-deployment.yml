@@ -13,7 +13,7 @@ spec:
         name: javawebapps
     spec:
       containers:
-      - image: dockerhandson/spring-boot-mongo
+      - image: dockerhandson/java-web-app
         name: javawebapps
         ports:
         - name: javawebapps
