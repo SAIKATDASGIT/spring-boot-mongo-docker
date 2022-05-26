@@ -13,11 +13,11 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: dockerhandson/java-web-app
+      - image: nginx
         name: javawebapp
         ports:
         - name: javawebapp
-          containerPort: 8080  
+          containerPort: 80 
 ---
 # Node Port Service
 apiVersion: v1
@@ -30,6 +30,6 @@ spec:
   type: NodePort
   ports:
     - port: 8080
-      targetPort: 8080
+      targetPort: 80
   selector:
     name: javawebapp
