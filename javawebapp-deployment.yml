@@ -13,7 +13,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: apache2
+      - image: httpd
         name: javawebapp
         ports:
         - name: javawebapp
