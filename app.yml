@@ -13,7 +13,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: tomcat:9-jre8-temurin-focal
+      - image: sonarqube:latest
         name: javawebapp
         ports:
         - name: javawebapp
