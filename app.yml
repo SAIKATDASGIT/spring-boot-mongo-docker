@@ -13,7 +13,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: sonarqube:latest
+      - image: sonarqube:5.2
         name: javawebapp
         ports:
         - name: javawebapp
